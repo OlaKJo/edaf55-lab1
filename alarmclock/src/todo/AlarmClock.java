@@ -13,6 +13,8 @@ public class AlarmClock {
 	private ClockInput	input;
 	private ClockOutput	output;
 	private Semaphore	signal; 
+	private printThread pT;
+	private ClockMechanics mech;
 	// Declare thread objects here..
 
 	/**
@@ -24,6 +26,8 @@ public class AlarmClock {
 		input = i;
 		output = o;
 		signal = input.getSemaphoreInstance();
+		pT = new printThread(i, o);
+		mech = new ClockMechanics(i, o);
 	}
 
 	/**
@@ -44,6 +48,10 @@ public class AlarmClock {
 		// Create thread objects here...
 		Thread removeMeFromApplication = new Thread(new InputOutputTest());
 		
+		pT.start();
+		
+		mech.start();
+		
 		// Create threads of execution by calling start...
 		removeMeFromApplication.start(); 
 	}
@@ -59,7 +67,7 @@ public class AlarmClock {
 				mode = input.getChoice();
 				output.doAlarm();
 				output.console(curr, time, flag, mode);
-				if (time == 120000) break; // Swe: Bryter för middag
+				if (time == 120000) break; // Swe: Bryter fï¿½r middag
 				signal.take();
 			}
 			output.console("IO-test terminated #");
