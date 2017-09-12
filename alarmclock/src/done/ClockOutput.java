@@ -14,7 +14,7 @@ public class ClockOutput {
      * Wake-up clock user.
      */
     public void doAlarm() {
-    	System.out.print("Beep! \u0007  "); // BELL char, or ctrl-G.
+    	System.out.print("Beep! \u0007\n"); // BELL char, or ctrl-G.
     	Toolkit.getDefaultToolkit().beep(); // Dito modern/AWT style.
         theDisplay.setAlarmPulse(true);
         try {Thread.sleep(300);} catch (InterruptedException e) {}
