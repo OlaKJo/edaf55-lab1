@@ -25,11 +25,9 @@ public class AlarmClock {
 	 */
 	public AlarmClock(ClockInput i, ClockOutput o) {
 		output = o;
-		MutexSem timeMutex = new MutexSem();
-		IntWrapper time = new IntWrapper();
-		IntWrapper alarmTime = new IntWrapper();
-		timePoller = new TimePoller(i, o, timeMutex, time, alarmTime);
-		timeSetter = new TimeSetter(i, o, timeMutex, time, alarmTime, timePoller);
+		SharedData sharedData = new SharedData(i, o);
+		timePoller = new TimePoller(sharedData);
+		timeSetter = new TimeSetter(i.getSemaphoreInstance(), sharedData);
 	}
 
 	/**
