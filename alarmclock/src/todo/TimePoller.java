@@ -30,7 +30,7 @@ public class TimePoller implements Runnable {
 	}
 
 	private void oneTick(long timeToSleep) throws InterruptedException {
-		System.out.println(timeToSleep);
+//		System.out.println(timeToSleep);
 		Thread.sleep(timeToSleep);
 	}
 
