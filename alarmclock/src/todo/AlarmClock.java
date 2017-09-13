@@ -34,7 +34,6 @@ public class AlarmClock {
 	 * Tell threads to terminate and wait until they are dead.
 	 */
 	public void terminate() {
-		output.console("AlarmClock exit.");
 		timePoller.killThread();
 		timeSetter.killThread();
 	}

@@ -14,7 +14,7 @@ public class ClockOutput {
      * Wake-up clock user.
      */
     public void doAlarm() {
-    	System.out.print("Beep! \u0007\n"); // BELL char, or ctrl-G.
+//    	System.out.print("Beep! \u0007\n"); // BELL char, or ctrl-G.
     	Toolkit.getDefaultToolkit().beep(); // Dito modern/AWT style.
         theDisplay.setAlarmPulse(true);
         try {Thread.sleep(300);} catch (InterruptedException e) {}
@@ -34,9 +34,9 @@ public class ClockOutput {
      * Display debug/logging message on hardware-dependent serial out.
      * @param msg The string to display.
      */
-    public void console(String msg) {
-    	System.out.println(msg);
-    }
+//    public void console(String msg) {
+//    	System.out.println(msg);
+//    }
     
     /**
      * Format and display ClockInput data.
@@ -51,9 +51,9 @@ public class ClockOutput {
     	case ClockInput.SET_ALARM: choice = "SET_ALARM"; break;
     	case ClockInput.SET_TIME:  choice = "SET_TIME "; break;
     	}
-    	System.out.printf("At ms=%05d: ", curr%10000); // ms within a minute
-    	System.out.printf("Value=%02d:%02d:%02d  AlarmFlag=%s  ", 
-    			time/100/100, time/100,time, flag?"T":"F");
-		System.out.printf("Choice=%s%n", choice);
+//    	System.out.printf("At ms=%05d: ", curr%10000); // ms within a minute
+//    	System.out.printf("Value=%02d:%02d:%02d  AlarmFlag=%s  ", 
+//    			time/100/100, time/100,time, flag?"T":"F");
+//		System.out.printf("Choice=%s%n", choice);
     }
 }
