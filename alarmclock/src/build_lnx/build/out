@@ -1,0 +1,4 @@
+java -classpath '/usr/local/cs/rtp/tools/ljrt-rev311/J2CTranslator' JavaGenCCode -classpath '/usr/local/cs/rtp/lab/alarmclock/linux/lnxclock/:/usr/local/cs/rtp/tools/ljrt-rev311/J2CTranslator/../javalib/java/:/usr/local/cs/rtp/tools/ljrt-rev311/J2CTranslator/../javalib/vm/:..' \
+-bootclasspath . \
+ -o Main.c --noredundantpush --deadcode-elim --with-reflection ../Main.java
+Makefile:1826: recipe for target 'Main.c' failed
