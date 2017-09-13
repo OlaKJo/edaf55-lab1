@@ -3,7 +3,7 @@ import java.applet.Applet;
 import java.awt.*;
 import java.awt.event.*;
 
-import todo.AlarmClock;
+//import todo.AlarmClock;
 
 
 public class ClockGUI extends Applet implements KeyListener, ClockTimeDisplay, ItemListener {
@@ -292,7 +292,7 @@ public class ClockGUI extends Applet implements KeyListener, ClockTimeDisplay, I
 			// Control software already running, activate GUI updates:
 			hiding = false;
 		} else {
-			System.out.println("AlarmClock start...");
+//			System.out.println("AlarmClock start...");
 //			control.start();
 		}
 	}
