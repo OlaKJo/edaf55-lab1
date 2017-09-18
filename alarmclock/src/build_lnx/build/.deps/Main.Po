@@ -1,0 +1,278 @@
+Main.o: Main.c /usr/include/stdc-predef.h \
+ /usr/local/cs/rtp/tools/ljrt-rev311/javalib/include/javatypes.h \
+ /usr/local/cs/rtp/tools/ljrt-rev311/gc/gc.h config.h \
+ /usr/local/cs/rtp/tools/ljrt-rev311/gc/gc_impl_incremental_ms.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h /usr/include/pthread.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/sched.h \
+ /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/xlocale.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/semaphore.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/bits/semaphore.h /usr/include/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp2.h class_indices.h \
+ /usr/local/cs/rtp/tools/ljrt-rev311/gc/gci_thread.h \
+ /usr/local/cs/rtp/tools/ljrt-rev311/gc/gc.h \
+ /usr/local/cs/rtp/tools/ljrt-rev311/gc/gc_roots.h \
+ /usr/local/cs/rtp/tools/ljrt-rev311/gc/gci_common.h \
+ /usr/local/cs/rtp/tools/ljrt-rev311/gc/gc_types.h \
+ /usr/local/cs/rtp/tools/ljrt-rev311/gc/gci_thread.h \
+ /usr/local/cs/rtp/tools/ljrt-rev311/gc/gc_roots.h \
+ /usr/local/cs/rtp/tools/ljrt-rev311/gc/gc_types.h \
+ /usr/local/cs/rtp/tools/ljrt-rev311/gc/gci_common.h \
+ /usr/local/cs/rtp/tools/ljrt-rev311/gc/exception.h java_lang_Object.h \
+ reflection.h \
+ /usr/local/cs/rtp/tools/ljrt-rev311/javalib/include/ljrt_threading.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h iface.h \
+ /usr/local/cs/rtp/tools/ljrt-rev311/javalib/include/java2c_lxrt.h \
+ java_lang_Thread.h java_lang_Runnable.h java_lang_Object.h \
+ java_lang_String.h java_lang_Cloneable.h java_io_Serializable.h \
+ java_lang_Throwable.h done_ClockInput.h done_ClockOutput.h \
+ se_lth_cs_realtime_semaphore_MutexSem.h \
+ se_lth_cs_realtime_semaphore_CountingSem.h todo_AlarmClock.h \
+ java_lang_InterruptedException.h java_lang_Exception.h \
+ java_io_PrintStream.h java_lang_IllegalArgumentException.h \
+ java_lang_RuntimeException.h java_lang_Comparable.h \
+ java_lang_CharSequence.h java_lang_StringBuilder.h \
+ java_lang_StringBuffer.h java_lang_System.h java_lang_PhonyWriter.h \
+ java_io_FilterOutputStream.h java_io_OutputStream.h \
+ java_lang_StringIndexOutOfBoundsException.h \
+ java_lang_IndexOutOfBoundsException.h java_io_IOException.h \
+ java_lang_Character.h java_lang_Character_Subset.h java_lang_Math.h \
+ java_lang_Integer.h java_lang_Number.h java_lang_Long.h \
+ java_lang_Float.h java_lang_Double.h java_lang_StackTraceElement.h \
+ java_lang_IllegalStateException.h java_lang_ErrWriter.h \
+ java_lang_NullPointerException.h \
+ se_lth_cs_realtime_semaphore_Semaphore.h done_InputSampler.h \
+ java_io_InterruptedIOException.h java_lang_PhonyReader.h \
+ java_lang_ArrayIndexOutOfBoundsException.h java_io_InputStream.h
+
+/usr/include/stdc-predef.h:
+
+/usr/local/cs/rtp/tools/ljrt-rev311/javalib/include/javatypes.h:
+
+/usr/local/cs/rtp/tools/ljrt-rev311/gc/gc.h:
+
+config.h:
+
+/usr/local/cs/rtp/tools/ljrt-rev311/gc/gc_impl_incremental_ms.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h:
+
+/usr/include/pthread.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+
+/usr/include/sched.h:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/semaphore.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigset.h:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+
+/usr/include/x86_64-linux-gnu/bits/semaphore.h:
+
+/usr/include/setjmp.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp2.h:
+
+class_indices.h:
+
+/usr/local/cs/rtp/tools/ljrt-rev311/gc/gci_thread.h:
+
+/usr/local/cs/rtp/tools/ljrt-rev311/gc/gc.h:
+
+/usr/local/cs/rtp/tools/ljrt-rev311/gc/gc_roots.h:
+
+/usr/local/cs/rtp/tools/ljrt-rev311/gc/gci_common.h:
+
+/usr/local/cs/rtp/tools/ljrt-rev311/gc/gc_types.h:
+
+/usr/local/cs/rtp/tools/ljrt-rev311/gc/gci_thread.h:
+
+/usr/local/cs/rtp/tools/ljrt-rev311/gc/gc_roots.h:
+
+/usr/local/cs/rtp/tools/ljrt-rev311/gc/gc_types.h:
+
+/usr/local/cs/rtp/tools/ljrt-rev311/gc/gci_common.h:
+
+/usr/local/cs/rtp/tools/ljrt-rev311/gc/exception.h:
+
+java_lang_Object.h:
+
+reflection.h:
+
+/usr/local/cs/rtp/tools/ljrt-rev311/javalib/include/ljrt_threading.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+iface.h:
+
+/usr/local/cs/rtp/tools/ljrt-rev311/javalib/include/java2c_lxrt.h:
+
+java_lang_Thread.h:
+
+java_lang_Runnable.h:
+
+java_lang_Object.h:
+
+java_lang_String.h:
+
+java_lang_Cloneable.h:
+
+java_io_Serializable.h:
+
+java_lang_Throwable.h:
+
+done_ClockInput.h:
+
+done_ClockOutput.h:
+
+se_lth_cs_realtime_semaphore_MutexSem.h:
+
+se_lth_cs_realtime_semaphore_CountingSem.h:
+
+todo_AlarmClock.h:
+
+java_lang_InterruptedException.h:
+
+java_lang_Exception.h:
+
+java_io_PrintStream.h:
+
+java_lang_IllegalArgumentException.h:
+
+java_lang_RuntimeException.h:
+
+java_lang_Comparable.h:
+
+java_lang_CharSequence.h:
+
+java_lang_StringBuilder.h:
+
+java_lang_StringBuffer.h:
+
+java_lang_System.h:
+
+java_lang_PhonyWriter.h:
+
+java_io_FilterOutputStream.h:
+
+java_io_OutputStream.h:
+
+java_lang_StringIndexOutOfBoundsException.h:
+
+java_lang_IndexOutOfBoundsException.h:
+
+java_io_IOException.h:
+
+java_lang_Character.h:
+
+java_lang_Character_Subset.h:
+
+java_lang_Math.h:
+
+java_lang_Integer.h:
+
+java_lang_Number.h:
+
+java_lang_Long.h:
+
+java_lang_Float.h:
+
+java_lang_Double.h:
+
+java_lang_StackTraceElement.h:
+
+java_lang_IllegalStateException.h:
+
+java_lang_ErrWriter.h:
+
+java_lang_NullPointerException.h:
+
+se_lth_cs_realtime_semaphore_Semaphore.h:
+
+done_InputSampler.h:
+
+java_io_InterruptedIOException.h:
+
+java_lang_PhonyReader.h:
+
+java_lang_ArrayIndexOutOfBoundsException.h:
+
+java_io_InputStream.h:

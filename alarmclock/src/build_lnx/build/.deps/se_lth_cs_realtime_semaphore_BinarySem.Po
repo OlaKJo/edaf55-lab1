@@ -1,0 +1,7 @@
+se_lth_cs_realtime_semaphore_BinarySem.o: \
+ /usr/local/cs/rtp/tools/ljrt-rev311/javalib/native/pthread/se_lth_cs_realtime_semaphore_BinarySem.c \
+ /usr/include/stdc-predef.h class_indices.h
+
+/usr/include/stdc-predef.h:
+
+class_indices.h:

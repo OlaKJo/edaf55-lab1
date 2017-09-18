@@ -1,0 +1,7 @@
+java_lang_Class.o: \
+ /usr/local/cs/rtp/tools/ljrt-rev311/javalib/native/pthread/../common/java_lang_Class.c \
+ /usr/include/stdc-predef.h class_indices.h
+
+/usr/include/stdc-predef.h:
+
+class_indices.h:

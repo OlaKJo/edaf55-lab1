@@ -1,0 +1,5 @@
+java_lang_Thread.o: \
+ /usr/local/cs/rtp/tools/ljrt-rev311/javalib/native/pthread/java_lang_Thread.c \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:
